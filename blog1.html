@@ -1,10 +1,10 @@
 <html>
     <body>
         <h1>My helpful links</h1>
-        <p>The first major resouce for anything I've learned in CSS or HTML is the W3 schools resources. They have articles for every basic HTML component and CSS property, and anytime I've had a question about how to use a certain tag or style rule, it has had an answer and example for me. In specific, the article I come back to the most is the block and inline elements article because that confuses me the most. It includes examples as well as lists of what elements use block and which use inline.
+        <p>The first major resouce for anything I've learned in CSS or HTML is the W3 schools resources. They have articles for every basic HTML component and CSS property, and anytime I've had a question about how to use a certain tag or style rule, it has had an answer and example for me. In specific, the article I come back to recurrently is the block and inline elements article because that confuses me the most. It includes examples as well as lists of what elements use block and which use inline.
         </p>
         <div id="example-code">
-            <h3>Example Code from the Article:</h3>
+            <h3>Example HTML Code from the Article:</h3>
             <textarea>
                 <div style="background-color:black;color:white;padding:20px;">
                     <h2>London</h2>
@@ -13,5 +13,31 @@
             </textarea>
         </div>
         <a href="https://www.w3schools.com/html/html_blocks.asp">Go to W3 article</a>
+
+        <p>
+            The next thing that's been helpful to me is a combination of an article and a tutorial. It is a flexbox tutorial using frogs to show how different aspects of flex box are used to align items. The tutorials are pseudo-written for you with enough experimentation to let you figure out certain parts for yourself. It outlines all of the attributes of flex box, and the levels get progressively harder as you go through them and are learning to combine multiple attributes.
+        </p>
+        <div id="example-code2">
+            <h3>Example CSS Code from the Tutorial:</h3>
+            <textarea>
+                #pond {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column-reverse;
+                    flex-wrap: wrap-reverse;
+                    align-content: space-between;
+                }
+            </textarea>
+        </div>
+        <a href="https://flexboxfroggy.com/">Go to Froggy Tutorial</a>
+
+        <p>
+            The last article I wanted to talk about comes directly from the MDN web docs and is super brief. I have always struggled to understand accessibility tags and how to make my websites accessible to users with disabilities. There are numerous articles showing how to use these ARIA tags, but the one I linked is the one I come back to frequently as a reminder of basic use for an ARIA label tag. It is used to label items in your HTML when there isn't a text label on the screen visible. While there isn't a cohesive opinion on how to provide accessibility, using these tags is one more step towards inclusivity for all on the web which is important to me. 
+        </p>
+        <h3>Example ARIA Tag Code from the Article: </h3>
+        <textarea>
+            <button aria-label="Close" onclick="myDialog.close()">X</button>
+        </textarea>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute"></a>
     </body>
 </html>
