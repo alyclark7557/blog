@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .accordian {
+            background-color: purple;
+            color: white;
+            cursor: pointer;
+            width: 50%;
+            padding: 100px;
+            border: solid thin black;
+            transition: 0.5s;
+            text-align: center;
+            align-items: center; 
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: gold;
+            display: none;
+            color: black;
+        }
+
+        .navbar {
+            background-color: purple;
+            overflow: hidden;
+            color: white;
+        }
+
+        .navbar a {
+            float: left;
+            background-color: gold;
+            color:black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navabr a.active {
+            background-color: palegoldenrod;
+            color: black;
+        }
+    </style>
+
+    <body>           
+        <div class="navbar">
+            <a href="index.html">Back to Home Page</a>
+            <a href="blog1.html">See my First Blog Post!</a>
+            <a>Blog 3: Coming Soon!!</a>
+        </div>
+
+        <button class="accordion">User Friendly Navigation Styles</button>
+        <div class="panel">
+            <p>I decided to focus on the navigation aspect of web development because I think it is extremely crucial for all websites to be easily navigated by users with no experience or knowledge of web development. It should be painfully obvious to the user what the have to click to get where. On this page, I included a couple of common examples about how web pages typically allow for user navigation.</p>
+        </div>
+
+        <button class="accordian">Accordian Folder Style</button>
+        <div class="panel">
+
+            <a href="https://www.w3schools.com/howto/howto_js_accordion.asp">Tutorial on Accordians</a>
+
+            <p>Below is an example of how to make one folder in the accordian (like the one I made on this page). Along with the HTML, there are some basic CSS rules that needed to be applied as well, but those are mostly to the developers preference and are interchangable with your own rules.</p>
+
+            <pre>
+                &lt;button class="accordian"&gt;Accordian Style Folders&lt;/button&gt;
+                &lt;div class="panel"&gt;
+                    &lt;Some text inserted here to collapse&gt;
+            </pre>
+
+            <p>As shown by my example accordian, the accordian file structure is an important and professional way of storing information on a web page. It also allows the user a certain amount of control as to what they are seeing on a web page</p>
+        </div>
+
+        <button class="accordian">Navbar Style</button>
+        <div class="panel">
+            <a href="https://www.w3schools.com/howto/howto_js_topnav.asp">Tutorial on Navbars</a>
+
+            <p>Below is an example of how to make a navbar (like the one I made on this page). While simple in nature, it is fundamental to the navigation of countless website designs. They are almost universal to use despite the many differences across the various web examples.</p>
+
+            <pre>
+                &lt;div class="navbar"&gt;
+                    &lt;a href="index.html"&gt;Back to Home Page&lt;/a&gt;
+                    &lt;a href="blog1.html"&gt;See my First Blog Post!&lt;/a&gt;
+                    &lt;a&gt;Blog 3: Coming Soon!!&lt;/a&gt;
+                &lt;/div&gt;
+            </pre>
+
+            <p>As shown by my example, navbars are a clean way to allow the user to transfer between pages. It is clean and easily accessable and understandable for a user. Navbar use also typically allows a user to see which links they have already clicked so that they can ensure they are visiting new or previous sites.</p>
+        </div>
+    </body>
+</html>
