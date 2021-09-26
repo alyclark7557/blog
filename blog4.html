@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Animations</h1>
+        <p>Because I wanted to add an animation to my static site without using javascript, I decided to research CSS animations! <a href="https://www.w3schools.com/css/css3_animations.asp">This article</a> that I have linked has taught me a lot about different animations I can do without the JS code. For example, it goes over how you can set a duration or how many times it should go, whether it should go into the reverse direction, and it can also specify the speed of animation.Below, I'm going to include a code snippet of one of the example animations given to show how it can be used using only CSS and HTML.</p>
+
+        <h3>HTML CODE</h3>
+        <pre>
+            &lt;div&gt;
+                Example Animation
+            &lt;/div&gt;
+        </pre>
+        
+        <h3>CSS CODE</h3>
+        <pre>
+            /* The animation code */
+            @keyframes example {
+              from {background-color: red;}
+              to {background-color: yellow;}
+            }
+            
+            /* The element to apply the animation to */
+            div {
+              width: 100px;
+              height: 100px;
+              background-color: red;
+              animation-name: example;
+              animation-duration: 4s;
+            } 
+        </pre>
+
+        <div>
+            <p>While this is a simple animation, it taught me the basics of how to use keyframes and animation names inside of the external stylesheet. This will be important when I want to change the color or the styling of objects on the page dynamically. Also in this article, it discusses delay, direction, fill-mode, and the iteration count. All of which can be used to customize your animation for your specific purpose.</p>
+        </div>
+        
+        <div>        
+            <h3>Implementation</h3>
+            <div id="animate">Example Animation</div>
+        </div>
+
+
+
+    </body>
+</html>
